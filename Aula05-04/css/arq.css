@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.conteiner{
+    width: 550px;
+    height: 350px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top:3%;
+    border-radius: 40px; /*Arredonda os cantos*/
+    background-color: #836fff;
+}
+.titulo{
+    width: 550px;
+    height: 50px;
+    margin-top: 5%;
+}
+h1 {
+    width: 350px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.texto1{
+    width: 350px;
+    margin: auto;
+    margin-top: 04%;
+    color: white;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+hr{
+    width: 350px;
+    margin: auto;
+    margin-top:5px;
+}
+.texto2{
+    width: 350px;
+    margin: auto;
+    margin-top: 08%;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
