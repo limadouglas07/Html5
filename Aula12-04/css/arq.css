@@ -1,0 +1,53 @@
+
+.conteiner{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    background-color: #0000cd;
+    
+}.titulo h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.galeria{
+    width: 900px;
+    height: 450px;    
+    margin: auto; 
+    
+}
+.linha1{
+    width: 850px;
+    height: 220px;
+    display: flex;
+    justify-content: space-around; /*Separa os blocos e organiza*/
+    margin: auto; /*centraliza a imágem*/
+}
+.cabec1{
+    width: 180px;
+    height: 10px;
+    background-color:#ff8c00;
+    
+}
+.corpo{
+    width: 180px;
+    background-color: white;
+}
+img{
+    width: 180px;
+    height: 125px;  
+    object-fit: cover;  /*Melhora a qualidade da imagem*/
+
+}
+.legenda{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+p{
+    margin:0px;
+    text-align: center;
+    font-size: 30px;
+}
