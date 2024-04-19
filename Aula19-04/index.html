@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Cadastro de Delivery</h1>
+    <form>
+        <label>Endereco</label> <input type="text" name="endereço" value="Digite o Endereço" size="40"
+            maxlength="150"><br>
+        <label>Data do pedido<input type="date" name="data_pedido"></label><br>
+        <label>Senha Autorização<input type="password" name="senha"></label><br>
+        <label>Data e hora do pedido</label><input type="datetime-local" name="datahora_pedido"><br>
+
+        <input type="radio" id="alternativa1" name="alternativa" value="A" /> <label for="alternativa1">Casa</label>
+        <input type="radio" id="alternativa2" name="alternativa" value="B" /> <label for="alternativa2">Prédio</label>
+        <input type="radio" id="alternativa3" name="alternativa" value="C" /> <label for="alternativa3">Comércio</label>
+        <input type="radio" id="alternativa4" name="alternativa" value="D" /> <label for="alternativa4">Nenhuma das Opções</label><br>
+        
+        <input type="checkbox" id="alternativa1" name="alternativa" value="A" /> <label for="alternativa1">Casa</label>
+        <input type="checkbox" id="alternativa2" name="alternativa" value="B" /> <label for="alternativa2">Prédio</label>        
+        <input type="checkbox" id="alternativa3" name="alternativa" value="C" /> <label for="alternativa3">Comércio</label>
+        <input type="checkbox" id="alternativa4" name="alternativa" value="D" /> <label for="alternativa4">Nenhuma das Opções</label><br>
+
+        <label>Tipo de Endereço</label>
+        <select name="tp_endereco" id="tp_endereco">
+            <option value="A">Casa</option>
+            <option value="B">Prédio</option>
+            <option value="C">Comércio</option>
+            <option value="D">Nenhuma das Opções</option>           
+        </select> <br>
+       <label>Mensagem<textarea name="texto" id="texto" rows="10" cols="60"></textarea></label><br>
+        <input type="submit" name="enviar" value="Salvar"><br>
+        <input type="button" name="Chamar" value="Chamar" onclick="alert('Primeira Mensagem !!!')">
+        
+    </form>
+
+</body>
+
+</html>
