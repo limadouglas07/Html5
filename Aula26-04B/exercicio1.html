@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function calc(){
+
+            var quant1 = parseFloat(document.getElementById('idQuant1').value)
+            var valor1 = parseFloat(document.getElementById('idValor1').value)
+            calcular1 = quant1*valor1
+            document.getElementById('idSub1').value = calcular1
+
+            var quant2 = parseFloat(document.getElementById('idQuant2').value)
+            var valor2 = parseFloat(document.getElementById('idValor2').value)
+            calcular2 = quant2*valor2
+            document.getElementById('idSub2').value = calcular2
+
+            var quant3 = parseFloat(document.getElementById('idQuant3').value)
+            var valor3 = parseFloat(document.getElementById('idValor3').value)
+            calcular3 = quant3*valor3
+            document.getElementById('idSub3').value = calcular3
+
+            total = calcular1 + calcular2 + calcular3
+            document.getElementById('idTotal').value = total
+
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label>Quantidade1</label>
+        <input type="text" id="idQuant1" size="5">        
+        <label >Valor1</label>
+        <input type="text" id="idValor1" size="8">
+        <label>Subtotal1</label>
+        <input type="text" id="idSub1" size="8">
+        
+
+        <br><br>
+        <label>Quantidade2</label>
+        <input type="text" id="idQuant2" size="5">        
+        <label >Valor2</label>
+        <input type="text" id="idValor2" size="8">
+        <label >Subtotal2</label>
+        <input type="text" id="idSub2" size="8">
+        
+
+         <br><br>
+
+        <label>Quantidade3</label>
+        <input type="text" id="idQuant3" size="5">        
+        <label >Valor3</label>
+        <input type="text" id="idValor3" size="8">
+        <label >Subtotal3</label>
+        <input type="text" id="idSub3" size="8">
+        <br><br>
+
+        <label>Total</label>
+        <input type="text" id="idTotal" size="8">
+
+        <input type="button" value="Calcular" onclick="calc()">
+        
+
+    </form>    
+</body>
+</html>

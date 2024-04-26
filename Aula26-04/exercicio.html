@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function calc(){
+            var ida = parseFloat(document.getElementById('idA').value)
+            var idb = parseFloat(document.getElementById('idB').value)
+            var idd = parseFloat(document.getElementById('idD').value)
+            calcular = ida * idb
+            document.getElementById('idA1').value = calcular  
+            calcular1 = idb * idd  
+            document.getElementById('idA2').value = calcular1        
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label>A </label>
+        <input type="text" id="idA" size="5">
+        <br><br>
+        <label>B </label>
+        <input type="text" id="idB" size="5">
+        <br><br>
+        <label>D</label>
+        <input type="text"  id="idD" size="5">
+        <br><br>
+        <label>A1</label>
+        <input type="text" id="idA1" size="5">
+        
+        <label >A2</label>
+        <input type="text" id="idA2" size="5">
+        <br><br>
+        <input type="button" value="Calcular" onclick="calc()">
+    </form>
+    
+</body>
+</html>
